@@ -1,4 +1,7 @@
 import { BrowserRouter} from "react-router-dom"
+import GlobalStyles from "./components/styles/Global";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./components/styles/Theme";
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./components/Home/Home"
 import About from "./components/About/About"
@@ -10,13 +13,18 @@ import Copyright from "./components/Copyright/Copyright"
 function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Technologies/>
-      <Projects/>
-      <Contact/>
-      <Copyright/>
+      <ThemeProvider theme={theme}>
+        <>
+          <GlobalStyles/>
+          <Navbar/>
+          <Home/>
+          <About/>
+          <Technologies/>
+          <Projects/>
+          <Contact/>
+          <Copyright/>
+        </>
+      </ThemeProvider>
     </BrowserRouter>
   )
 }
