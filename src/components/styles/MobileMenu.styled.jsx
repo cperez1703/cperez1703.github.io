@@ -10,7 +10,7 @@ export const MobileMenuContainer = styled.div`
   position: fixed;
   height: 100%;
   width: 100%;
-  background: ${({ theme }) => theme.backgroundColor.dark};
+  background: ${({ theme }) => theme.backgroundColor.backCol};
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   transition: 0.3s ease;
@@ -44,7 +44,6 @@ export const MobileMenuList = styled.ul`
 `;
 
 export const MobileMenuLink = styled(MobileMenuNavLink)`
-  font-family: ${({ theme }) => theme.fonts.cardo};
   font-size: 2rem;
   font-weight: 500;
   transition: 0.3s ease;

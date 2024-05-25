@@ -10,7 +10,6 @@ export const StyledNavbar = styled.nav`
   justify-content: space-between;
   align-items: center;
   height: 7.5625rem;
-  padding: 0 5rem;
   transition: 0.5s ease-in-out;
   z-index: 999;
   color: #fff;
