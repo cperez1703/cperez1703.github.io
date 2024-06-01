@@ -9,7 +9,7 @@ import {
       image: image1,
       transitionImage: image2,
       title:
-        "Project Description.",
+        "Project Description. Test",
       codeLink: "https://github.com/cperez1703/cperez1703.github.io",
       liveLink: "https://cperez1703.github.io/",
       techStack: ["React", "MongoDB", "Node.js"],
