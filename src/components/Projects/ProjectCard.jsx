@@ -27,24 +27,28 @@ const ProjectCardComponent = ({
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
             <ProjectTitle>{title}</ProjectTitle>
-            <ProjectCodeLink
-              href={codeLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkName>Github</LinkName>
-            </ProjectCodeLink>
-            <ProjectLiveLink
-              href={liveLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkName>Live</LinkName>
-            </ProjectLiveLink>
+            {codeLink && (
+              <ProjectCodeLink
+                href={codeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkName>Github</LinkName>
+              </ProjectCodeLink>
+            )}
+            {liveLink && (
+              <ProjectLiveLink
+                href={liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkName>Live</LinkName>
+              </ProjectLiveLink>
+            )}
             <h4 style={{ marginTop: "10px" }}>Tech Stack</h4>
             <span style={{ display: "flex" }}>
-              {techStack.map((el) => (
-                <p key={el.id}>{el}||</p>
+              {techStack.map((el, index) => (
+                <p key={index}>{el}{index < techStack.length - 1 && ' || '}</p>
               ))}
             </span>
           </ProjectDetails>
