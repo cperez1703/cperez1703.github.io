@@ -48,7 +48,10 @@ const ProjectCardComponent = ({
             <h4 style={{ marginTop: "10px" }}>Tech Stack</h4>
             <span style={{ display: "flex" }}>
               {techStack.map((el, index) => (
-                <p key={index}>{el}{index < techStack.length - 1 && ' || '}</p>
+                <p key={index}>
+                  {el}
+                  {index < techStack.length - 1 && " || "}
+                </p>
               ))}
             </span>
           </ProjectDetails>

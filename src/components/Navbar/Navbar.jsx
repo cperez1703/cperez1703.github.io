@@ -28,7 +28,7 @@ const Navbar = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
-//   mobile toggle
+  //   mobile toggle
   const toggle = () => {
     setIsOpen(!isOpen);
   };
@@ -56,8 +56,7 @@ const Navbar = () => {
             smooth={true}
             duration={0}
             delay={0}
-            sp
-            y={true}
+            spy={true}
             spyThrottle={0}
             exact="true"
             offset={-85.26}
