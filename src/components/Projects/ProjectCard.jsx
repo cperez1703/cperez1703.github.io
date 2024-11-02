@@ -33,7 +33,7 @@ const ProjectCardComponent = ({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkName>Github</LinkName>
+                {/* <LinkName>Github</LinkName> */}
               </ProjectCodeLink>
             )}
             {liveLink && (
@@ -42,10 +42,10 @@ const ProjectCardComponent = ({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkName>Live</LinkName>
+                <LinkName>More Info</LinkName>
               </ProjectLiveLink>
             )}
-            <h4 style={{ marginTop: "10px" }}>Tech Stack</h4>
+            <h4 style={{ marginTop: "10px" }}>Technologies</h4>
             <span style={{ display: "flex" }}>
               {techStack.map((el, index) => (
                 <p key={index}>

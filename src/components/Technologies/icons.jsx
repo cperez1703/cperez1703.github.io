@@ -1,80 +1,73 @@
-import html5 from "../../assets/technologies/html.svg";
-import css3 from "../../assets/technologies/css.svg";
-import javascript from "../../assets/technologies/javascript.svg";
 import reactjs from "../../assets/technologies/react.svg";
-import styledComponents from "../../assets/technologies/styled-components.svg";
-import firebase from "../../assets/technologies/firebase.svg"
+import firebase from "../../assets/technologies/firebase.svg";
 import npm from "../../assets/technologies/npm.svg";
 import git from "../../assets/technologies/git.svg";
-import github from "../../assets/technologies/github.svg";
-import Express from "../../assets/technologies/express.png";
 import Mongo from "../../assets/technologies/MongoImg.jpg";
+import clearml from "../../assets/technologies/clearml-logo.svg";
+import tailwind from "../../assets/technologies/tailwind.svg";
+import hydra from "../../assets/technologies/hydra.svg";
+import docker from "../../assets/technologies/docker-mark-blue.svg";
+import tensorflow from "../../assets/technologies/tensorflow.svg";
 
 export const iconsData = [
   {
     id: 1,
-    icon: html5,
-    name: "HTML5",
-    href: "https://www.w3.org/html/",
-  },
-  {
-    id: 2,
-    icon: css3,
-    name: "CSS3",
-    href: "https://www.w3schools.com/css/",
-  },
-  {
-    id: 3,
-    icon: javascript,
-    name: "JavaScript",
-    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
-    id: 4,
     icon: reactjs,
     name: "React JS",
     href: "https://reactjs.org/",
   },
   {
-    id: 5,
+    id: 2,
     icon: Mongo,
     name: "MongoDb",
     href: "https://www.mongodb.com/",
   },
   {
-    id: 6,
+    id: 3,
     icon: firebase,
     name: "Firebase",
     href: "https://firebase.google.com/",
   },
   {
-    id: 7,
-    icon: styledComponents,
-    name: "Styled Components",
-    href: "https://styled-components.com/",
+    id: 4,
+    icon: tailwind,
+    name: "Tailwind CSS",
+    href: "https://tailwindcss.com/",
   },
   {
-    id: 8,
+    id: 5,
+    icon: clearml,
+    name: "ClearML",
+    href: "https://www.clear.ml/",
+  },
+  {
+    id: 6,
     icon: npm,
     name: "Node Package Manager",
     href: "https://www.npmjs.com/",
   },
   {
-    id: 9,
+    id: 8,
     icon: git,
     name: "Git",
     href: "https://git-scm.com/",
   },
   {
+    id: 9,
+    icon: hydra,
+    name: "Hydra",
+    href: "https://hydra.cc/",
+  },
+  {
     id: 10,
-    icon: github,
-    name: "GitHub",
-    href: "https://github.com/",
+    icon: docker,
+    name: "Docker",
+    href: "https://www.docker.com/",
   },
   {
     id: 11,
-    icon: Express,
-    name: "Express js",
-    href: "https://expressjs.com/",
+    icon: tensorflow,
+    name: "TensorFlow",
+    href: "https://www.tensorflow.org/",
   },
 ];

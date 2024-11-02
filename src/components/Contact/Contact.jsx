@@ -34,7 +34,6 @@ const Contact = () => {
   const year = new Date().getFullYear();
   return (
     <StyledFooter id="contact">
-
       <FooterBigLinkContainer>
         <FooterBigLink
           href="mailto:calvinperez2003@gmail.com"
@@ -69,8 +68,8 @@ const Contact = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Mail</ContactHeader>
-          <ContactLink href="mailto:calvinperez2003@gmail.com">
-            calvinperez2003@gmail.com
+          <ContactLink href="mailto:c.jay.perez1703@gmail.com">
+            c.jay.perez1703@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>

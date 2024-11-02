@@ -23,24 +23,27 @@ const About = () => {
         <AboutImage src={myImage} />
         <AboutDetailsContainer>
           <StyledParagraph>
-          Hello, I'm Calvin Perez, a dedicated Computer Science student with a passion
-          for coding and technology. My journey in the world of computer science is
-          driven by a relentless pursuit of knowledge and a commitment to excellence.
+            Hello, I'm Calvin Perez, a dedicated Computer Science student with a
+            passion for coding and technology. My journey in the world of
+            computer science is driven by a relentless pursuit of knowledge and
+            a commitment to excellence.
           </StyledParagraph>
           <StyledParagraph>
-          I pride myself on being open-minded, always eager to learn and adapt in 
-          a rapidly evolving field. This mindset not only helps me stay current with
-          the latest technological advancements but also enables me to approach
-          problems from various angles, leading to more effective and creative solutions.
+            I pride myself on being open-minded, always eager to learn and adapt
+            in a rapidly evolving field. This mindset not only helps me stay
+            current with the latest technological advancements but also enables
+            me to approach problems from various angles, leading to more
+            effective and creative solutions.
           </StyledParagraph>
           <StyledParagraph>
-            Thank you for visiting my website. I look forward to connecting with you 
-            and exploring the endless possibilities that the world of technology has to offer.
+            Thank you for visiting my website. I look forward to connecting with
+            you and exploring the endless possibilities that the world of
+            technology has to offer.
           </StyledParagraph>
           <Resume>
             <ResumeLink
               download="Calvin_Perez"
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="https://drive.google.com/file/d/1r01fvRfz9iIO0-cLGpfq8TswXx6SGfIU/view?usp=sharing"
               target={"_blank"}
               icon={downloadIcon}
             >

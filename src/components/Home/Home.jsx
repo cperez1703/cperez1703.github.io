@@ -42,7 +42,7 @@ const Home = () => {
           <a href="tel:9049932535">
             <IoIosCall />
           </a>
-          <a href="mailto:calvinperez2003@gmail.com">
+          <a href="mailto:c.jay.perez1703@gmail.com">
             <IoMdMail />
           </a>
         </div>
